@@ -1,0 +1,16 @@
+
+---
+
+## Quick Start
+
+```bash
+# 1. Clone & create venv
+git clone https://github.com/your-org/cricket_motion_analyzer.git
+cd cricket_motion_analyzer
+python -m venv .venv && source .venv/bin/activate
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the pipeline
+python -m src.main --video data/raw_videos/sample.mp4 --fps 5
